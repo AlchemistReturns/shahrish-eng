@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Services</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Advent+Pro:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+    
+  </head>
+
+  <body class="advent-pro-normal">
+    <header class="relative h-[100vh] flex flex-col">
+      <img
+        src="./static/home-hero-section.jpg"
+        alt="services hero"
+        class="absolute inset-0 w-full h-full object-cover"
+      />
+      <div class="absolute inset-0 bg-gray-300 bg-opacity-50"></div>
+      <header class="relative z-10 text-black py-6">
+        <div class="container mx-auto flex justify-between items-center px-4">
+          <div class="text-4xl font-bold">SHAHRISH</div>
+          <nav class="hidden text-xl lg:flex space-x-6 md:space-x-20">
+            <a href="index.html" class="hover:text-gray-400">HOME</a>
+            <a href="about.html" class="hover:text-gray-400">ABOUT</a>
+            <a href="services.html" class="hover:text-gray-400">SERVICES</a>
+            <a href="projects.html" class="hover:text-gray-400">PROJECTS</a>
+            <a href="career.html" class="hover:text-gray-400">CAREERS</a>
+            <a href="contact.html" class="hover:text-gray-400">CONTACT</a>
+          </nav>
+          <div class="lg:hidden">
+            <button id="menu-button" class="text-black focus:outline-none">
+              <i class="fas fa-bars"></i>
+            </button>
+          </div>
+        </div>
+      </header>
+      <div
+        id="mobile-menu"
+        class="hidden fixed inset-0 bg-black bg-opacity-90 text-white z-20 flex flex-col items-center justify-center"
+      >
+        <a href="index.html" class="block px-4 py-2 text-xl hover:bg-gray-800">HOME</a>
+        <a href="about.html" class="block px-4 py-2 text-xl hover:bg-gray-800">ABOUT</a>
+        <a href="services.html" class="block px-4 py-2 text-xl hover:bg-gray-800">SERVICES</a>
+        <a href="projects.html" class="block px-4 py-2 text-xl hover:bg-gray-800"
+          >PROJECTS</a
+        >
+        <a href="career.html" class="block px-4 py-2 text-xl hover:bg-gray-800"
+          >CAREERS</a
+        >
+        <a href="contact.html" class="block px-4 py-2 text-xl hover:bg-gray-800"
+          >CONTACT</a
+        >
+        <button
+          id="close-menu"
+          class="mt-4 text-xl text-white focus:outline-none"
+        >
+          <i class="fas fa-times"></i> Close
+        </button>
+      </div>
+      <div class="relative z-10 flex flex-col gap-10 flex-1 items-center justify-center">
+        <h1
+          class="text-6xl font-extrabold text-center text-[#052530] w-[88%]"
+        >
+          WHAT WE OFFER
+        </h1>
+      </div>
+    </header>
+
+    <!-- INTRO SECTION -->
+    <section class="flex items-center justify-center min-h-[50vh] px-4 py-10">
+      <div
+        class="text-center mx-auto p-6 flex flex-col justify-center items-center w-[90%] md:w-[70%]"
+      >
+        <p
+          class="text-base sm:text-lg md:text-xl leading-relaxed font-semibold text-[#666]"
+        >
+        Based in the heart of New York, our engineering design and construction management company is dedicated to transforming ambitious visions into tangible, sustainable realities. We provide a comprehensive range of services, from initial design and project planning to full-scale construction management, ensuring each project is executed with precision, efficiency, and innovation. Our team of experienced engineers, architects, and project managers collaborates closely with clients to create solutions that not only meet their goals but also adhere to the highest standards of quality and safety. Whether working on large commercial developments, residential projects, or complex infrastructure, we are committed to building a stronger future for New York and beyond.
+        </p>
+      </div>
+    </section>
+
+    <!-- SERVICES -->
+    <section class="bg-white flex items-center justify-center min-h-screen my-3">
+      <div class="text-center w-11/12 sm:w-4/5 md:w-7/10 lg:w-7/10">
+          <h1 class="text-5xl md:text-7xl font-bold mb-10 text-[#052530]">OUR SERVICES</h1>
+          <div class="space-y-4">
+            <a href="services-engineering.html" class="w-full inline-block py-3 text-3xl md:text-4xl font-semibold rounded hover:text-[#052530] hover:bg-white border-[2px] border-white hover:border-[#052530] bg-[#052530] text-white text-center">Engineering</a>
+              <a href="services-wall.html" class="w-full inline-block py-3 text-3xl md:text-4xl font-semibold rounded hover:text-[#052530] hover:bg-white border-[2px] border-white hover:border-[#052530] bg-[#052530] text-white text-center">Retaining wall inspections</a>
+              <a href="services-construction.html" class="w-full inline-block py-3 text-3xl md:text-4xl font-semibold rounded hover:text-[#052530] hover:bg-white border-[2px] border-white hover:border-[#052530] bg-[#052530] text-white text-center">Construction management</a>
+              <a href="services-special.html" class="w-full inline-block py-3 text-3xl md:text-4xl font-semibold rounded hover:text-[#052530] hover:bg-white border-[2px] border-white hover:border-[#052530] bg-[#052530] text-white text-center">Special Inspection</a>
+              <a href="services-mechanical.html" class="w-full inline-block py-3 text-3xl md:text-4xl font-semibold rounded hover:text-[#052530] hover:bg-white border-[2px] border-white hover:border-[#052530] bg-[#052530] text-white text-center">Mechanical Plumbing</a>
+              <a href="services-vibration.html" class="w-full inline-block py-3 text-3xl md:text-4xl font-semibold rounded hover:text-[#052530] hover:bg-white border-[2px] border-white hover:border-[#052530] bg-[#052530] text-white text-center">Vibration Monitoring</a>
+          </div>
+      </div>
+    </section>
+    
+    <!-- GET IN TOUCH -->
+    <section
+      class="bg-[#4C7275] flex items-center justify-center h-[50vh]"
+    >
+      <div class="text-center flex flex-col justify-center items-center gap-5">
+        <h1 class="text-5xl md:text-7xl text-[#052530] font-bold">Have something in mind?</h1>
+        <a
+          class="text-3xl md:text-5xl text-[#052530] font-semibold" href="contact.html"
+        >
+          Get in Touch
+      </a>
+      </div>
+    </section>
+    <!-- FOOTER -->
+    <footer class="bg-[#052530] flex items-start justify-start p-10">
+      <div class="text-[#4C7275]">
+        <h1 class="text-2xl md:text-3xl lg:text-4xl font-bold mb-8 text-white">
+          SHAHRISH
+        </h1>
+        <ul class="text-xl space-y-1 md:space-y-2 font-bold">
+          <li><a href="about.html">ABOUT</a></li>
+          <li><a href="services.html">SERVICES</a></li>
+          <li><a href="projects.html">PROJECTS</a></li>
+          <li><a href="career.html">CAREER</a></li>
+          <li><a href="sustainability.html">SUSTAINABILITY</a></li>
+          <li><a href="news.html">NEWS</a></li>
+          <li><a href="contact.html">CONTACT</a></li>
+        </ul>
+      </div>
+    </footer>
+    
+    <script src="./script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Home</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Advent+Pro:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+
+<body class="bg-gray-100 advent-pro-normal">
+  <header class="relative h-[100vh] flex flex-col">
+    <img src="./static/home-hero-section.jpg" alt="services hero"
+      class="absolute inset-0 w-full h-full object-cover" />
+    <div class="absolute inset-0 bg-gray-300 bg-opacity-50"></div>
+    <header class="relative z-10 text-black py-6">
+      <div class="container mx-auto flex justify-between items-center px-4">
+        <div class="text-4xl font-bold">SHAHRISH</div>
+        <nav class="hidden text-xl lg:flex space-x-6 md:space-x-20">
+          <a href="index.html" class="hover:text-gray-400">HOME</a>
+          <a href="about.html" class="hover:text-gray-400">ABOUT</a>
+          <a href="services.html" class="hover:text-gray-400">SERVICES</a>
+          <a href="projects.html" class="hover:text-gray-400">PROJECTS</a>
+          <a href="career.html" class="hover:text-gray-400">CAREERS</a>
+          <a href="contact.html" class="hover:text-gray-400">CONTACT</a>
+        </nav>
+        <div class="lg:hidden">
+          <button id="menu-button" class="text-black focus:outline-none">
+            <i class="fas fa-bars"></i>
+          </button>
+        </div>
+      </div>
+    </header>
+    <div id="mobile-menu"
+      class="hidden fixed inset-0 bg-black bg-opacity-90 text-white z-20 flex flex-col items-center justify-center">
+      <a href="index.html" class="block px-4 py-2 text-xl hover:bg-gray-800">HOME</a>
+      <a href="about.html" class="block px-4 py-2 text-xl hover:bg-gray-800">ABOUT</a>
+      <a href="services.html" class="block px-4 py-2 text-xl hover:bg-gray-800">SERVICES</a>
+      <a href="projects.html" class="block px-4 py-2 text-xl hover:bg-gray-800">PROJECTS</a>
+      <a href="career.html" class="block px-4 py-2 text-xl hover:bg-gray-800">CAREERS</a>
+      <a href="contact.html" class="block px-4 py-2 text-xl hover:bg-gray-800">CONTACT</a>
+      <button id="close-menu" class="mt-4 text-xl text-white focus:outline-none">
+        <i class="fas fa-times"></i> Close
+      </button>
+    </div>
+    <div class="relative z-10 flex flex-col gap-10 flex-1 items-center justify-center">
+      <h1 class="text-6xl font-extrabold text-center text-[#052530] w-[88%]">
+        EXPLORE OUR PROJECTS
+      </h1>
+    </div>
+  </header>
+
+  <section>
+    <div
+      class="relative flex flex-col items-center justify-center md:flex-row w-[75%] mx-auto my-6 bg-white shadow-sm border border-slate-200 rounded-lg w-96">
+      <div class="relative p-2.5 md:w-2/5 shrink-0 overflow-hidden">
+        <img src="./static/project-1.jpeg" alt="card-image"
+          class="h-full w-full rounded-md md:rounded-lg object-cover" />
+      </div>
+      <div class="p-6">
+        <h4 class="mb-2 text-slate-800 text-4xl font-semibold">
+          Structural, Foundation and Support of Excavation
+          Design for 17-Story Mixed-Use Building
+        </h4>
+        <br>
+        <div class="inline-block">
+          <a href="project-1.html" class="text-white font-semibold text-2xl hover:underline flex items-center p-2 bg-[#052530]">
+            Learn More
+            <svg xmlns="http://www.w3.org/2000/svg" class="ml-2 h-4 w-4" fill="none" viewBox="0 0 24 24"
+              stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3" />
+            </svg>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div
+      class="relative flex flex-col items-center justify-center md:flex-row-reverse w-[75%] mx-auto my-6 bg-white shadow-sm border border-slate-200 rounded-lg w-96">
+      <div class="relative p-2.5 md:w-2/5 shrink-0 overflow-hidden">
+        <img src="./static/project-2.png" alt="card-image"
+          class="h-full w-full rounded-md md:rounded-lg object-cover" />
+      </div>
+      <div class="p-6">
+        <h4 class="mb-2 text-slate-800 text-4xl font-semibold">
+          Structural, Foundation and Support of Excavation
+          Design for 11-Story Residential Building
+        </h4>
+        <br>
+        <div class="inline-block">
+          <a href="project-2.html" class="text-white font-semibold text-2xl hover:underline flex items-center p-2 bg-[#052530]">
+            Learn More
+            <svg xmlns="http://www.w3.org/2000/svg" class="ml-2 h-4 w-4" fill="none" viewBox="0 0 24 24"
+              stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3" />
+            </svg>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div
+      class="relative flex flex-col items-center justify-center md:flex-row w-[75%] mx-auto my-6 bg-white shadow-sm border border-slate-200 rounded-lg w-96">
+      <div class="relative p-2.5 md:w-3/5 shrink-0 overflow-hidden">
+        <img src="./static/project-3.png" alt="card-image"
+          class="h-full w-full rounded-md md:rounded-lg object-cover" />
+      </div>
+      <div class="p-6">
+        <h4 class="mb-2 text-slate-800 text-4xl font-semibold">
+          Structural Design for 8-Story Residential Building
+        </h4>
+        <br>
+        <div class="inline-block">
+          <a href="project-3.html" class="text-white font-semibold text-2xl hover:underline flex items-center p-2 bg-[#052530]">
+            Learn More
+            <svg xmlns="http://www.w3.org/2000/svg" class="ml-2 h-4 w-4" fill="none" viewBox="0 0 24 24"
+              stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3" />
+            </svg>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div
+      class="relative flex flex-col items-center justify-center md:flex-row-reverse w-[75%] mx-auto my-6 bg-white shadow-sm border border-slate-200 rounded-lg w-96">
+      <div class="relative p-2.5 md:w-2/5 shrink-0 overflow-hidden">
+        <img src="./static/project-4.png" alt="card-image"
+          class="h-full w-full rounded-md md:rounded-lg object-cover" />
+      </div>
+      <div class="p-6">
+        <h4 class="mb-2 text-slate-800 text-4xl font-semibold">
+          Structural Condition Assessment of
+          Seven Existing Hospital Buildings
+        </h4>
+        <br>
+        <div class="inline-block">
+          <a href="project-4.html" class="text-white font-semibold text-2xl hover:underline flex items-center p-2 bg-[#052530]">
+            Learn More
+            <svg xmlns="http://www.w3.org/2000/svg" class="ml-2 h-4 w-4" fill="none" viewBox="0 0 24 24"
+              stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3" />
+            </svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- GET IN TOUCH -->
+  <section class="bg-[#4C7275] flex items-center justify-center h-[50vh]">
+    <div class="text-center flex flex-col justify-center items-center gap-5">
+      <h1 class="text-5xl md:text-7xl text-[#052530] font-bold">Have something in mind?</h1>
+      <a class="text-3xl md:text-5xl text-[#052530] font-semibold" href="contact.html">
+        Get in Touch
+      </a>
+    </div>
+  </section>
+  <!-- FOOTER -->
+  <footer class="bg-[#052530] flex items-start justify-start p-10">
+    <div class="text-[#4C7275]">
+      <h1 class="text-2xl md:text-3xl lg:text-4xl font-bold mb-8 text-white">
+        SHAHRISH
+      </h1>
+      <ul class="text-xl space-y-1 md:space-y-2 font-bold">
+        <li><a href="about.html">ABOUT</a></li>
+        <li><a href="services.html">SERVICES</a></li>
+        <li><a href="projects.html">PROJECTS</a></li>
+        <li><a href="career.html">CAREER</a></li>
+        <li><a href="sustainability.html">SUSTAINABILITY</a></li>
+        <li><a href="news.html">NEWS</a></li>
+        <li><a href="contact.html">CONTACT</a></li>
+      </ul>
+    </div>
+  </footer>
+
+  <script src="./script.js"></script>
+</body>
+
+</html>

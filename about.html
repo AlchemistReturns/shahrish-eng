@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>About</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Advent+Pro:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+
+  <body class="advent-pro-normal">
+    <header class="relative h-[100vh] flex flex-col">
+      <img
+        src="./static/home-hero-section.jpg"
+        alt="services hero"
+        class="absolute inset-0 w-full h-full object-cover"
+      />
+      <div class="absolute inset-0 bg-gray-300 bg-opacity-50"></div>
+      <header class="relative z-10 text-black py-6">
+        <div class="container mx-auto flex justify-between items-center px-4">
+          <div class="text-4xl font-bold">SHAHRISH</div>
+          <nav class="hidden text-xl lg:flex space-x-6 md:space-x-20">
+            <a href="index.html" class="hover:text-gray-400">HOME</a>
+            <a href="about.html" class="hover:text-gray-400">ABOUT</a>
+            <a href="services.html" class="hover:text-gray-400">SERVICES</a>
+            <a href="projects.html" class="hover:text-gray-400">PROJECTS</a>
+            <a href="career.html" class="hover:text-gray-400">CAREERS</a>
+            <a href="contact.html" class="hover:text-gray-400">CONTACT</a>
+          </nav>
+          <div class="lg:hidden">
+            <button id="menu-button" class="text-black focus:outline-none">
+              <i class="fas fa-bars"></i>
+            </button>
+          </div>
+        </div>
+      </header>
+      <div
+        id="mobile-menu"
+        class="hidden fixed inset-0 bg-black bg-opacity-90 text-white z-20 flex flex-col items-center justify-center"
+      >
+        <a href="index.html" class="block px-4 py-2 text-xl hover:bg-gray-800">HOME</a>
+        <a href="about.html" class="block px-4 py-2 text-xl hover:bg-gray-800">ABOUT</a>
+        <a href="services.html" class="block px-4 py-2 text-xl hover:bg-gray-800">SERVICES</a>
+        <a href="projects.html" class="block px-4 py-2 text-xl hover:bg-gray-800"
+          >PROJECTS</a
+        >
+        <a href="career.html" class="block px-4 py-2 text-xl hover:bg-gray-800"
+          >CAREERS</a
+        >
+        <a href="contact.html" class="block px-4 py-2 text-xl hover:bg-gray-800"
+          >CONTACT</a
+        >
+        <button
+          id="close-menu"
+          class="mt-4 text-xl text-white focus:outline-none"
+        >
+          <i class="fas fa-times"></i> Close
+        </button>
+      </div>
+      <div class="relative z-10 flex flex-col gap-10 flex-1 items-center justify-center">
+        <h1
+          class="text-6xl font-extrabold text-center text-[#052530] w-[88%]"
+        >
+          SHAHRISH SHUVO<br>ENGINEERING.
+        </h1>
+        <h1 class="text-2xl md:text-3xl lg:text-4xl font-bold text-center text-[#052530] w-[88%]">
+          BUILDING TRUST, ONE PROJECT AT A TIME
+        </h1>
+      </div>
+    </header>
+
+    <!-- FIRM PROFILE -->
+    <section class="flex items-center justify-center p-4 w-[90%] md:w-[85%] mx-auto mb-10">
+      <div class="bg-white lg:p-12 rounded-lg flex flex-col md:flex-row items-center justify-center gap-x-16">
+        <div class="flex flex-col justify-center items-center md:items-start mb-6 gap-6">
+          <h1 class="text-left md:text-left text-4xl md:text-6xl font-bold text-[#052530]">
+            <div class="flex md:flex-col gap-2">
+              <div>FIRM</div>
+              <div>PROFILE</div>
+            </div>
+          </h1>
+          <div class="w-[75%] h-[35%] md:w-full md:h-full">
+            <img alt="new york" class="w-full h-fullmt-4 object-contain" src="./static/about_firm_profile.jpg" />
+          </div>
+        </div>
+        <div class="text-center md:text-left">
+          <p class="text-xl md:text-2xl text-[#666] font-bold">
+            Based in the heart of New York, our engineering design and construction management company is dedicated to transforming ambitious visions into tangible, sustainable realities. We provide a comprehensive range of services, from initial design and project planning to full-scale construction management, ensuring each project is executed with precision, efficiency, and innovation. Our team of experienced engineers, architects, and project managers collaborates closely with clients to create solutions that not only meet their goals but also adhere to the highest standards of quality and safety. Whether working on large commercial developments, residential projects, or complex infrastructure, we are committed to building a stronger future for New York and beyond.
+          </p>
+        </div>
+      </div>
+    </section>
+    
+    <!-- EXECUTIVE LEADERSHIP -->
+    <section class="w-[95%] md:w-[80%] mx-auto flex flex-col justify-center items-center mb-10">
+      <div class="bg-[#052530] h-[20vh] w-[80%] text-white flex justify-center items-center mb-6">
+        <div class="text-4xl md:text-6xl font-extrabold">
+          Executive Leadership
+        </div>
+      </div>
+      <section>
+        <!-- Shahrish Shuvo -->
+        <div class="flex justify-center items-center">
+          <div class="mx-auto p-6 flex flex-col md:flex-row items-center md:items-start">
+            <div class="md:w-2/5 flex justify-center items-center mb-6">
+              <img alt="ceo" class="w-[50vw] h-[50vh] object-contain"src="./static/ceo.png"/>
+            </div>
+            <div class="md:w-3/5 md:pl-8">
+              <h1 class="text-3xl md:text-5xl font-extrabold mb-2">
+              Shahrish Shuvo, P.E
+              </h1>
+              <h2 class="text-xl md:text-3xl font-semibold mb-4">
+              President &amp; CEO
+              </h2>
+              <p class="text-justify mb-4 text-lg font-semibold">
+                Mr. Shuvo is the Founder, President & Chief Executive Officer of Shahrish Shuvo Engineering P.C. (SSE). He established the firm in 2015. Shahrish holds a master’s degree in Civil Engineering from City College of New York and is a licensed professional engineer in New York, Connecticut, Maryland, and Pennsylvania. He has extensive experience in planning, design, construction inspection and project management which includes preparation and review of project specifications, drawings and report writing.
+              </p>
+              <p class="text-justify text-lg font-semibold">
+                Shahrish is responsible for pursuing the company mission, vision and strategy as well as maintaining the financial success of the business. He provides the corporate leadership and foresight for strategic growth of the firm. Shahrish believes in the value of his team, he recognizes the importance of surrounding himself with a staff that is knowledgeable, passionate, and driven. Shahrish believes that Engineering Excellence starts with Better Design. SSE’s core values include being innovative, responsive, and efficient.
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- Raymond V Tobia -->
+        <div class="flex justify-center items-center">
+          <div class="mx-auto p-6 flex flex-col md:flex-row-reverse items-center md:items-start">
+            <div class="md:w-2/5 flex justify-center items-center mb-6">
+              <img alt="ceo" class="w-[50vw] h-[50vh] object-contain" src="./static/raymon.png"/>
+            </div>
+            <div class="md:w-3/5 md:pl-8">
+              <h1 class="text-3xl md:text-5xl font-extrabold mb-2">
+              Shahrish Shuvo, P.E
+              </h1>
+              <h2 class="text-xl md:text-3xl font-semibold mb-4">
+              President &amp; CEO
+              </h2>
+              <p class="text-justify mb-4 text-lg font-semibold">
+                Mr. Tobia has been in the engineering/geomatics industry for more than 45 years. Before joining SSE, Ray worked for Topo-Metrics, Inc. as a production manager working with field survey, aerial mapping, photo Lab and CADD departments. Later he joined Vollmer Associates, LLC where he was a senior associate and opened a long island office for the firm completing all survey and aerial mapping for the firm in the northeast. When Stantec acquired Vollmer, he was made a principal and became the managing Leader for the Tri State Survey and Geomatics Division at Stantec Consulting Services, Inc. He also monitored the survey group relative to profitability activities of seven offices in the region. His responsibility included company-wide coordination for all Aerial mapping projects and project manager for major survey and mapping projects within the tri-state area.
+                </p>
+                <p class="text-justify mb-4 text-lg font-semibold">
+                  Over the course of his career, Ray has worked for numerous significant public and private clients throughout the region. These include: The Port Authority of New York and New Jersey; The NYC Department of Design and Construction; The NYC Department of Parks and Recreation; The NYC Economic Development Corporation; The New York State Department of Transportation; The New Jersey Department of Transportation; Connecticut Department of Transportation; The Metropolitan Transportation Authority; Hudson River Park Trust and others.
+                </p>
+                <p class="text-justify mb-4 text-lg font-semibold">
+                  Ray has worked on photogrammetric and land surveying services for many notable projects including complete surveys of the former and new Yankee Stadium, the World Trade Center Site, LaGuardia Airport, John F. Kennedy Airport, Lincoln Tunnel Helix, Hudson River Park Trust Development from Battery Park City to 59th Street; Route 9A in Manhattan, Brooklyn Navy Yard, Barkley Center, Battery Park City, Bayonne Bridge, Whitehall Ferry Terminal, and many major infrastructure improvement projects.
+                </p>
+                <p class="text-justify text-lg font-semibold">
+                  As Senior Vice President of SSE, Ray operates with integrity. He plays an active role in the development and completion of projects, with multiple teams. Ray plans and monitors work schedules while aligning engineering and surveying activities with company goals and objectives. He provides expert guidance and support maintaining positive relationships with both internal and external stakeholders.
+                </p>
+            </div>
+          </div>
+        </div>
+        <!-- Ahmed Shakir, P.E -->
+        <div class="flex justify-center items-center">
+          <div class="mx-auto p-6 flex flex-col md:flex-row items-center md:items-start">
+            <div class="md:w-2/5 flex justify-center items-center mb-6">
+              <img alt="ceo" class="w-[50vw] h-[50vh] object-contain"src="./static/Shakir.png"/>
+            </div>
+            <div class="md:w-3/5 md:pl-8">
+              <h1 class="text-3xl md:text-5xl font-extrabold mb-2">
+                Ahmed Shakir, P.E
+              </h1>
+              <h2 class="text-xl md:text-3xl font-semibold mb-4">
+                Vice President of<br>Construction Management
+              </h2>
+              <p class="text-justify mb-4 text-lg font-semibold">
+                Mr. Shakir is a professional Engineer registered in the State of New York and New Jersey with more than thirty years of experience. His 20-year tenure with the New York City Department of Transportation Bureau of Bridges and 5-years with New York City Department of Environmental Protection bring unparalleled expertise to our firm. During his time with NYCDOT Bureau of Bridges, as project and resident engineer, he oversaw jobs which exceeded $45 million. Mr. Shakir’s responsibilities included managing daily tasks on project sites overseeing progress as per plans, specifications, and schedules. He coordinated with multiple outside agencies to mitigate project coordination.
+              </p>
+              <p class="text-justify text-lg font-semibold">
+                Mr. Shakir was responsible for all aspects of MPT, Safety and community issues. At SSE, Mr. Shakir is heavily involved in QA/QC of the engineering development teams. He is responsible for ensuring that design requirements are met, overseeing the consistency of our deliverables.
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- Andre K Miller, LS -->
+        <div class="flex justify-center items-center">
+          <div class="mx-auto p-6 flex flex-col md:flex-row-reverse items-center md:items-start">
+            <div class="md:w-2/5 flex justify-center items-center mb-6">
+              <img alt="ceo" class="w-[50vw] h-[50vh] object-contain"src="./static/Miller.png"/>
+            </div>
+            <div class="md:w-3/5 md:pl-8">
+              <h1 class="text-3xl md:text-5xl font-extrabold mb-2">
+                Andre K Miller, LS
+              </h1>
+              <h2 class="text-xl md:text-3xl font-semibold mb-4">
+                Vice President of Surveying
+              </h2>
+              <p class="text-justify mb-4 text-lg font-semibold">
+                Mr. Miller has more than 30 years of experience in field survey analysis for the preparation of right-of-way mapping for roadway reconstruction and infrastructure improvement projects.
+              </p>
+              <p class="text-justify mb-4 text-lg font-semibold">
+                His responsibilities include interpretation of field evidence and extensive electronic data analysis. He is proficient in the use of many CADD drafting tools including MicroStation, Terramodel, and Procogo. Andre leads the surveying department at SSE.
+              </p>
+              <p class="text-justify text-lg font-semibold">
+                His extensive expertise is invaluable as he mentors the field crew staff. His responsibilities include the overview of daily operations, monitoring performance, and training.
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- Hassan Rashid, P.E. -->
+        <div class="flex justify-center items-center">
+          <div class="mx-auto p-6 flex flex-col md:flex-row items-center md:items-start">
+            <div class="md:w-2/5 flex justify-center items-center mb-6">
+              <img alt="ceo" class="w-[50vw] h-[50vh] object-contain"src="./static/Rashid.png"/>
+            </div>
+            <div class="md:w-3/5 md:pl-8">
+              <h1 class="text-3xl md:text-5xl font-extrabold mb-2">
+                Hassan Rashid, P.E.
+              </h1>
+              <h2 class="text-xl md:text-3xl font-semibold mb-4">
+                Director of Quality Assurance and Control
+              </h2>
+              <p class="text-justify mb-4 text-lg font-semibold">
+                Mr. Rashid is a licensed Professional Engineer with New York, New Jersey, Connecticut, and Massachusetts. In a career extending close to four decades, Hassan acquired extensive experience in the rehabilitation and replacement of infrastructure—bridges, buildings, railroads, highways, and related facilities—throughout the tri-state area. He has been responsible for all phases of project development, from senior management positions to analysis, design, and inspection for multidisciplinary engineering projects.
+              </p>
+              <p class="text-justify text-lg font-semibold">
+                Hasan joined SSE with experience leading bridge and roadway engineering projects for clients such as the New York City Department of Transportation, New York City Department of Parks and Recreation, the New Jersey Department of Transportation, the Massachusetts Department of Transportation, the Connecticut Department of Transportation, the New York State Department of Transportation, New York City Transit, and the Port Authority of New York and New Jersey. As lead and principal civil engineer at SSE, Hasan’s role at the firm involves overseeing projects, communicating with clients and supervising the work of the engineering staff.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+    </section>
+  
+    
+    <!-- GET IN TOUCH -->
+    <section
+      class="bg-[#4C7275] flex items-center justify-center h-[50vh]"
+    >
+      <div class="text-center flex flex-col justify-center items-center gap-5">
+        <h1 class="text-5xl md:text-7xl text-[#052530] font-bold">Have something in mind?</h1>
+        <a
+          class="text-3xl md:text-5xl text-[#052530] font-semibold" href="contact.html"
+        >
+          Get in Touch
+      </a>
+      </div>
+    </section>
+    <!-- FOOTER -->
+    <footer class="bg-[#052530] flex items-start justify-start p-10">
+      <div class="text-[#4C7275]">
+        <h1 class="text-2xl md:text-3xl lg:text-4xl font-bold mb-8 text-white">
+          SHAHRISH
+        </h1>
+        <ul class="text-xl space-y-1 md:space-y-2 font-bold">
+          <li><a href="about.html">ABOUT</a></li>
+          <li><a href="services.html">SERVICES</a></li>
+          <li><a href="projects.html">PROJECTS</a></li>
+          <li><a href="career.html">CAREER</a></li>
+          <li><a href="sustainability.html">SUSTAINABILITY</a></li>
+          <li><a href="news.html">NEWS</a></li>
+          <li><a href="contact.html">CONTACT</a></li>
+        </ul>
+      </div>
+    </footer>
+    
+    <script src="./script.js"></script>
+  </body>
+</html>

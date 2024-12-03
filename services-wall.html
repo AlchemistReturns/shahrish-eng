@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Home</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Advent+Pro:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet" />
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+
+<body class="advent-pro-normal">
+  <!-- header -->
+  <header class="relative h-[100vh] flex flex-col">
+    <img src="./static/service-engineering-hero-section.JPG" alt="services hero"
+      class="absolute inset-0 w-full h-full object-cover" />
+    <div class="absolute inset-0 bg-[#11111199]"></div>
+    <header class="relative z-10 text-white py-6">
+      <div class="container mx-auto flex justify-between items-center px-4">
+        <div class="text-4xl font-bold">SHAHRISH</div>
+        <nav class="hidden text-xl lg:flex space-x-6 md:space-x-20">
+          <a href="index.html" class="hover:text-gray-400">HOME</a>
+          <a href="about.html" class="hover:text-gray-400">ABOUT</a>
+          <a href="services.html" class="hover:text-gray-400">SERVICES</a>
+          <a href="projects.html" class="hover:text-gray-400">PROJECTS</a>
+          <a href="career.html" class="hover:text-gray-400">CAREERS</a>
+          <a href="contact.html" class="hover:text-gray-400">CONTACT</a>
+        </nav>
+        <div class="lg:hidden">
+          <button id="menu-button" class="text-black focus:outline-none">
+            <i class="fas fa-bars"></i>
+          </button>
+        </div>
+      </div>
+    </header>
+    <div id="mobile-menu"
+      class="hidden fixed inset-0 bg-black bg-opacity-90 text-white z-20 flex flex-col items-center justify-center">
+      <a href="index.html" class="block px-4 py-2 text-xl hover:bg-gray-800">HOME</a>
+      <a href="about.html" class="block px-4 py-2 text-xl hover:bg-gray-800">ABOUT</a>
+      <a href="services.html" class="block px-4 py-2 text-xl hover:bg-gray-800">SERVICES</a>
+      <a href="projects.html" class="block px-4 py-2 text-xl hover:bg-gray-800">PROJECTS</a>
+      <a href="career.html" class="block px-4 py-2 text-xl hover:bg-gray-800">CAREERS</a>
+      <a href="contact.html" class="block px-4 py-2 text-xl hover:bg-gray-800">CONTACT</a>
+      <button id="close-menu" class="mt-4 text-xl text-white focus:outline-none">
+        <i class="fas fa-times"></i> Close
+      </button>
+    </div>
+    <div class="relative z-10 flex flex-col gap-10 flex-1 items-center justify-center">
+      <h1 class="text-3xl md:text-4xl lg:text-6xl font-extrabold text-center text-white w-[88%]">
+        RETAINING WALL INSPECTION
+      </h1>
+
+    </div>
+  </header>
+  <br>
+  <section class="min-h-screen">
+    <div class="max-w-4xl mx-auto py-8 px-6">
+      <h2 class="text-4xl font-bold text-[#052530] mb-4">SSE specializes in Retaining Wall Inspections</h2>
+      <p class="text-gray-700 text-xl mb-6">
+        Owners of properties with a retaining wall that faces a public right-of-way and has any portion of the wall extending ten feet or higher must have their retaining wall inspected every five years by a Qualified Retaining Wall Inspector (QRWI) and a condition assessment report of the inspection submitted by the QRWI within 60 days of completing the inspection. We have a team of experts who are Qualified Retaining Wall Inspectors (QRWI). We can respond quickly to your inspection needs.
+      </p>
+      <div class="container mx-auto px-4 py-8">
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
+            <img src="./static/rwi1.png" alt="Image 1" class="w-full h-auto">
+            <img src="./static/rwi2.png" alt="Image 2" class="w-full h-auto">
+            <img src="./static/rwi3.png" alt="Image 3" class="w-full h-auto">
+        </div>
+    </div>
+      <h2 class="text-4xl font-bold text-gray-800 mb-4">Wall Rating</h2>
+    <!-- Description -->
+    <p class="text-gray-700 mb-6 text-xl">
+      All retaining walls must be given one of four ratings by the QRWI:
+    </p>
+    <!-- Ratings List -->
+    <ul class="list-disc list-inside text-gray-800 mb-8 text-xl">
+      <li><strong>Safe</strong></li>
+      <li><strong>Safe with Minor Repairs or Maintenance</strong></li>
+      <li><strong>Safe with Repairs and/or Engineering Monitoring</strong></li>
+      <li><strong>Unsafe</strong></li>
+    </ul>
+    <!-- Steps for Compliance -->
+    <h3 class="text-4xl font-bold text-gray-800 mb-4">Steps for Compliance</h3>
+    <ol class="list-decimal list-inside text-gray-700 space-y-4 mb-8 text-xl">
+      <li>
+        <strong>Identify if your wall must be inspected</strong> – If you have an entire retaining wall or part of a retaining wall on your property and it is ten feet or higher at any point on your property and faces a public right-of-way, you must have the wall inspected by a QRWI, and an assessment report submitted by the QRWI. Owners that share a retaining wall with one or more neighbors may hire one QRWI to inspect the wall.
+      </li>
+      <li>
+        <strong>QRWI conducts inspection</strong> – The QRWI conducts the inspection and determines the rating of the wall.
+      </li>
+      <li>
+        <strong>QRWI submits condition assessment report and filing fees</strong> – Within 60 days after completing the assessment, the QRWI must submit a report to the Department that meets, at a minimum, the criteria spelled out in RCNY §103-09. Filing fees are also payable for each property owner for whom the report is being submitted (a wall with multiple owners may have one report submitted for all of the owners, but filing fees must be paid by each individual owner).
+      </li>
+    </ol>
+    <!-- Violation Section -->
+    <h3 class="text-4xl font-bold text-gray-800 mb-4">Are you in violation?</h3>
+    <p class="text-gray-700 text-xl mb-8">
+      2021 is the midway point of the second cycle of New York City’s mandated retaining wall inspections. This year, owners and managers of properties in Staten Island must have their retaining walls inspected with a report filed by December 31, 2021. If this is not done, owners risk fines and civil penalties from the New York City Department of Buildings (DOB). SSE can help! Contact us at <a href="mailto:info@shahrish.net" class="text-blue-600 underline">info@shahrish.net</a> or call <a href="tel:6313936020" class="text-blue-600 underline">631.393.6020</a> to schedule your inspection.
+    </p>
+    <h3 class="text-4xl font-bold text-gray-800 mb-4">Retaining wall inspection</h3>
+    <div class="overflow-x-auto mb-8">
+      <table class="min-w-full border-collapse border border-gray-200 text-xl">
+        <!-- Table Header -->
+        <thead>
+          <tr class="bg-blue-100">
+            <th class="border border-gray-300 px-4 py-2 text-left font-semibold text-gray-800">
+              Borough
+            </th>
+            <th class="border border-gray-300 px-4 py-2 text-left font-semibold text-gray-800">
+              2nd Cycle Dates
+            </th>
+          </tr>
+        </thead>
+        <!-- Table Body -->
+        <tbody>
+          <tr>
+            <td class="border border-gray-300 px-4 py-2">The Bronx</td>
+            <td class="border border-gray-300 px-4 py-2">January 1, 2019 - December 31, 2019</td>
+          </tr>
+          <tr class="bg-gray-50">
+            <td class="border border-gray-300 px-4 py-2">Manhattan</td>
+            <td class="border border-gray-300 px-4 py-2">January 1, 2020 - December 31, 2020</td>
+          </tr>
+          <tr>
+            <td class="border border-gray-300 px-4 py-2">Staten Island</td>
+            <td class="border border-gray-300 px-4 py-2">January 1, 2021 - December 31, 2021</td>
+          </tr>
+          <tr class="bg-gray-50">
+            <td class="border border-gray-300 px-4 py-2">Queens</td>
+            <td class="border border-gray-300 px-4 py-2">January 1, 2022 - December 31, 2022</td>
+          </tr>
+          <tr>
+            <td class="border border-gray-300 px-4 py-2">Brooklyn</td>
+            <td class="border border-gray-300 px-4 py-2">January 1, 2023 - December 31, 2023</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    
+    <h3 class="text-4xl font-bold text-gray-800 mb-4">Additional information</h3>
+    <p class="text-gray-700 text-xl">
+      For more information about the NYC Department of Buildings Retaining Wall Compliance Laws refer to this link to <a href="https://www1.nyc.gov/site/buildings/safety/retaining-walls.page" class="text-blue-600 underline">NYC Buildings Site</a></p>
+    </div>
+
+  </section>
+  <br>
+
+  <!-- GET IN TOUCH -->
+  <section class="bg-[#4C7275] flex items-center justify-center h-[50vh]">
+    <div class="text-center flex flex-col justify-center items-center gap-5">
+      <h1 class="text-5xl md:text-7xl text-[#052530] font-bold">
+        Have something in mind?
+      </h1>
+      <a class="text-3xl md:text-5xl text-[#052530] font-semibold" href="contact.html">
+        Get in Touch
+      </a>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="bg-[#052530] flex items-start justify-start p-10">
+    <div class="text-[#4C7275]">
+      <h1 class="text-2xl md:text-3xl lg:text-4xl font-bold mb-8 text-white">
+        SHAHRISH
+      </h1>
+      <ul class="text-xl space-y-1 md:space-y-2 font-bold">
+        <li><a href="about.html">ABOUT</a></li>
+        <li><a href="services.html">SERVICES</a></li>
+        <li><a href="projects.html">PROJECTS</a></li>
+        <li><a href="career.html">CAREER</a></li>
+        <li><a href="sustainability.html">SUSTAINABILITY</a></li>
+        <li><a href="news.html">NEWS</a></li>
+        <li><a href="contact.html">CONTACT</a></li>
+      </ul>
+    </div>
+  </footer>
+
+  <script src="./script.js"></script>
+</body>
+
+</html>
